@@ -19,6 +19,8 @@ class MainController: UIViewController {
     }
     
     private func setSubviews() {
+        self.title = "Swift Examples"
+        
         tableView.delegate = self
         tableView.dataSource = self
         tableView.tableFooterView = UIView()

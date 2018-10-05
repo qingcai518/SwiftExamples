@@ -13,7 +13,7 @@ class MainViewModel {
     var examples = [ExampleData]()
     
     func setNames() {
-        let example1 = ExampleData(id: 1, name: "UICollectionView水平翻页", next: Example1Controller())
+        let example1 = ExampleData(id: 1, name: "UICollectionView 水平翻页", next: Example1Controller())
         let example2 = ExampleData(id: 2, name: "Coming soon", next: Example2Controller())
         
         examples = [example1, example2]
