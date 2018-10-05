@@ -27,6 +27,8 @@
 		4B99F46321674E1A001C7D96 /* Example1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99F46221674E1A001C7D96 /* Example1Controller.swift */; };
 		4B99F4662167511A001C7D96 /* Example2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99F4652167511A001C7D96 /* Example2Controller.swift */; };
 		4B99F4692167566C001C7D96 /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99F4682167566C001C7D96 /* ExampleData.swift */; };
+		4BE4BDCB2167605C00E654F6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4BDCA2167605C00E654F6 /* CardCell.swift */; };
+		4BE4BDCD216760E200E654F6 /* CardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4BDCC216760E200E654F6 /* CardLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		4B99F46221674E1A001C7D96 /* Example1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1Controller.swift; sourceTree = "<group>"; };
 		4B99F4652167511A001C7D96 /* Example2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2Controller.swift; sourceTree = "<group>"; };
 		4B99F4682167566C001C7D96 /* ExampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		4BE4BDCA2167605C00E654F6 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		4BE4BDCC216760E200E654F6 /* CardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 		4B99F44921674545001C7D96 /* example1 */ = {
 			isa = PBXGroup;
 			children = (
+				4BE4BDC92167603900E654F6 /* cell */,
+				4BE4BDC82167603300E654F6 /* layout */,
 				4B99F46221674E1A001C7D96 /* Example1Controller.swift */,
 			);
 			path = example1;
@@ -250,6 +256,22 @@
 				4B99F4682167566C001C7D96 /* ExampleData.swift */,
 			);
 			path = data;
+			sourceTree = "<group>";
+		};
+		4BE4BDC82167603300E654F6 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4BDCC216760E200E654F6 /* CardLayout.swift */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		4BE4BDC92167603900E654F6 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4BDCA2167605C00E654F6 /* CardCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,9 +438,11 @@
 				4B99F4692167566C001C7D96 /* ExampleData.swift in Sources */,
 				4B99F45E21674BCB001C7D96 /* ExampleCell.swift in Sources */,
 				4B99F417216743B7001C7D96 /* MainController.swift in Sources */,
+				4BE4BDCD216760E200E654F6 /* CardLayout.swift in Sources */,
 				4B99F44721674516001C7D96 /* AppConstants.swift in Sources */,
 				4B99F415216743B7001C7D96 /* AppDelegate.swift in Sources */,
 				4B99F4662167511A001C7D96 /* Example2Controller.swift in Sources */,
+				4BE4BDCB2167605C00E654F6 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

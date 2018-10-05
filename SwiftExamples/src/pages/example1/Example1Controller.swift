@@ -9,8 +9,15 @@
 import UIKit
 
 class Example1Controller: UIViewController {
+    var collectionView: UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setSubviews()
+    }
+    
+    private func setSubviews() {
+        self.view.backgroundColor = UIColor.white
+        
     }
 }
