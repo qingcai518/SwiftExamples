@@ -44,7 +44,11 @@ class MainController: UIViewController {
 }
 
 extension MainController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let next = Example1Controller()
+        self.navigationController?.pushViewController(next, animated: true)
+    }
 }
 
 extension MainController: UITableViewDataSource {
