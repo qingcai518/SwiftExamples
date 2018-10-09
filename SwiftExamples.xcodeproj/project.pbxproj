@@ -29,6 +29,8 @@
 		4B99F4692167566C001C7D96 /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99F4682167566C001C7D96 /* ExampleData.swift */; };
 		4BE4BDCB2167605C00E654F6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4BDCA2167605C00E654F6 /* CardCell.swift */; };
 		4BE4BDCD216760E200E654F6 /* CardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4BDCC216760E200E654F6 /* CardLayout.swift */; };
+		4BE4BDCF216C319300E654F6 /* Example1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4BDCE216C319300E654F6 /* Example1ViewModel.swift */; };
+		4BE4BDD1216C31C900E654F6 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4BDD0216C31C900E654F6 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		4B99F4682167566C001C7D96 /* ExampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
 		4BE4BDCA2167605C00E654F6 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		4BE4BDCC216760E200E654F6 /* CardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLayout.swift; sourceTree = "<group>"; };
+		4BE4BDCE216C319300E654F6 /* Example1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1ViewModel.swift; sourceTree = "<group>"; };
+		4BE4BDD0216C31C900E654F6 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +219,7 @@
 				4BE4BDC92167603900E654F6 /* cell */,
 				4BE4BDC82167603300E654F6 /* layout */,
 				4B99F46221674E1A001C7D96 /* Example1Controller.swift */,
+				4BE4BDCE216C319300E654F6 /* Example1ViewModel.swift */,
 			);
 			path = example1;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				4B99F4682167566C001C7D96 /* ExampleData.swift */,
+				4BE4BDD0216C31C900E654F6 /* CardData.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -435,12 +441,14 @@
 			files = (
 				4B99F46321674E1A001C7D96 /* Example1Controller.swift in Sources */,
 				4B99F46021674D69001C7D96 /* MainViewModel.swift in Sources */,
+				4BE4BDCF216C319300E654F6 /* Example1ViewModel.swift in Sources */,
 				4B99F4692167566C001C7D96 /* ExampleData.swift in Sources */,
 				4B99F45E21674BCB001C7D96 /* ExampleCell.swift in Sources */,
 				4B99F417216743B7001C7D96 /* MainController.swift in Sources */,
 				4BE4BDCD216760E200E654F6 /* CardLayout.swift in Sources */,
 				4B99F44721674516001C7D96 /* AppConstants.swift in Sources */,
 				4B99F415216743B7001C7D96 /* AppDelegate.swift in Sources */,
+				4BE4BDD1216C31C900E654F6 /* CardData.swift in Sources */,
 				4B99F4662167511A001C7D96 /* Example2Controller.swift in Sources */,
 				4BE4BDCB2167605C00E654F6 /* CardCell.swift in Sources */,
 			);

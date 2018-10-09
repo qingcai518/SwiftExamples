@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class CartLayout: UICollectionViewFlowLayout {
+class CardLayout: UICollectionViewFlowLayout {
     var lastOffset = CGPoint.zero
     
     var pageWidth: CGFloat {
